@@ -31,4 +31,6 @@
   <string name="smart_mute_title">Bisukan cerdas</string>
   <string name="smart_mute_summary">Bisukan panggilan masuk dengan membalik perangkat</string>
   <!-- Show or Hide Dialerpad -->
+  <string name="showdialer_title">Tampilkan dialpad secara otomatis</string>
+  <string name="showdialer_summary">Dialpad menunjukkan secara otomatis saat membuka dialer app</string>
 </resources>
