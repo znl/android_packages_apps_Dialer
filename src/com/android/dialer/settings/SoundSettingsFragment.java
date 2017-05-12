@@ -101,17 +101,12 @@ public class SoundSettingsFragment extends PreferenceFragment
                 context.getString(R.string.play_dtmf_preference_key));
         mDtmfToneLength = (ListPreference) findPreference(
                 context.getString(R.string.dtmf_tone_length_preference_key));
-
-        if (hasVibrator()) {
-            mVibrateWhenRinging.setOnPreferenceChangeListener(this);
-        } else {
-            PreferenceScreen ps = getPreferenceScreen();
-            Preference inCallVibration = findPreference(
+        PreferenceScreen ps = getPreferenceScreen();
+        Preference inCallVibration = findPreference(
                     context.getString(R.string.incall_vibration_category_key));
-            ps.removePreference(mVibrateWhenRinging);
-            ps.removePreference(inCallVibration);
-            mVibrateWhenRinging = null;
-        }
+        ps.removePreference(mVibrateWhenRinging);
+        ps.removePreference(inCallVibration);
+        mVibrateWhenRinging = null;
 
         mPlayDtmfTone.setOnPreferenceChangeListener(this);
         mPlayDtmfTone.setChecked(shouldPlayDtmfTone());
@@ -148,9 +143,9 @@ public class SoundSettingsFragment extends PreferenceFragment
             return;
         }
 
-        if (mVibrateWhenRinging != null) {
+       /* if (mVibrateWhenRinging != null) {
             mVibrateWhenRinging.setChecked(shouldVibrateWhenRinging());
-        }
+        }*/
 
         // Lookup the ringtone name asynchronously.
         new Thread(mRingtoneLookupRunnable).start();
@@ -172,12 +167,12 @@ public class SoundSettingsFragment extends PreferenceFragment
                     Toast.LENGTH_SHORT).show();
             return true;
         }
-        if (preference == mVibrateWhenRinging) {
+        /*if (preference == mVibrateWhenRinging) {
             boolean doVibrate = (Boolean) objValue;
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.VIBRATE_WHEN_RINGING,
                     doVibrate ? DO_VIBRATION_FOR_CALLS : NO_VIBRATION_FOR_CALLS);
-        } else if (preference == mDtmfToneLength) {
+        } else*/ if (preference == mDtmfToneLength) {
             int index = mDtmfToneLength.findIndexOfValue((String) objValue);
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.DTMF_TONE_TYPE_WHEN_DIALING, index);
