@@ -17,12 +17,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Proximity speaker -->
-  <string name="speaker_settings_label">Tiệm cận loa thoại</string>
+  <string name="speaker_settings_label">Chỉnh loa thoại theo cảm biến tiệm cận</string>
   <string name="prox_auto_speaker_title">Tự động bật loa thoại theo cảm biến tiệm cận</string>
   <string name="prox_auto_speaker_summary">Tự động bật loa thoại khi đưa điện thoại bạn rời khỏi tai</string>
   <string name="prox_auto_speaker_delay_title">Độ trễ loa thoại</string>
-  <string name="prox_auto_speaker_delay_dialog_title">Loa thoại trễ (ms)</string>
-  <string name="prox_auto_speaker_delay_summary">Loa thoại sẽ được kích hoạt trong <xliff:g id="number">%d </xliff:g> ms</string>
+  <string name="prox_auto_speaker_delay_dialog_title">Loa thoại trễ trong (mili-giây)</string>
+  <string name="prox_auto_speaker_delay_summary">Loa thoại sẽ được kích hoạt trong <xliff:g id="number">%d </xliff:g> mili-giây</string>
   <string name="prox_auto_speaker_incall_only_title">Chỉ trong khi gọi</string>
   <string name="prox_auto_speaker_incall_only_summary_on">Trong các cuộc gọi đi, loa ngoài sẽ chỉ kích hoạt sau khi bên nhận trả lời</string>
   <string name="prox_auto_speaker_incall_only_summary_off">Người nghe sẽ được hoạt động trong tất cả các nước gọi offhook (mặc định)</string>
@@ -32,5 +32,5 @@
   <string name="smart_mute_summary">Tắt tiếng cuộc gọi đến bằng cách lật thiết bị</string>
   <!-- Show or Hide Dialerpad -->
   <string name="showdialer_title">Tự động hiện bàn phím quay số</string>
-  <string name="showdialer_summary">Tự động hiện bàn phím quay số khi mở ứng dụng trình quay số</string>
+  <string name="showdialer_summary">Tự động hiện bàn phím quay số khi mở ứng dụng điện thoại</string>
 </resources>
