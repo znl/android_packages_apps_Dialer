@@ -31,4 +31,6 @@
   <string name="smart_mute_title">Smart tyst</string>
   <string name="smart_mute_summary">Gör ljudlös vid inkommande samtal genom att vända på enheten</string>
   <!-- Show or Hide Dialerpad -->
+  <string name="showdialer_title">Visa knappsatsen automatiskt</string>
+  <string name="showdialer_summary">Visar knappsatsen automatiskt när appen öppnas</string>
 </resources>
