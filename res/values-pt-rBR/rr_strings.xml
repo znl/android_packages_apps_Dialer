@@ -17,18 +17,18 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Proximity speaker -->
-  <string name="speaker_settings_label">Auto-falante de proximidade</string>
+  <string name="speaker_settings_label">Viva-voz de proximidade</string>
   <string name="prox_auto_speaker_title">Viva-voz de proximidade automático</string>
   <string name="prox_auto_speaker_summary">Ativar o viva-voz automaticamente quando o telefone é afastado da sua orelha</string>
   <string name="prox_auto_speaker_delay_title">Atraso do viva-voz</string>
   <string name="prox_auto_speaker_delay_dialog_title">Atraso do viva-voz em (ms)</string>
-  <string name="prox_auto_speaker_delay_summary">Alto-falante será ativado em <xliff:g id="number">%d</xliff:g> ms</string>
+  <string name="prox_auto_speaker_delay_summary">Viva-voz será ativado em <xliff:g id="number">%d</xliff:g> ms</string>
   <string name="prox_auto_speaker_incall_only_title">Apenas em ligação</string>
   <string name="prox_auto_speaker_incall_only_summary_on">Em chamadas de saída, ouvinte só ficará ativo após a chamada for atendida</string>
-  <string name="prox_auto_speaker_incall_only_summary_off">Ouvinte estará ativo durante todos os estados da chamada offhook (padrão)</string>
+  <string name="prox_auto_speaker_incall_only_summary_off">Ouvinte estará ativo durante todos os estados da chamada ativa (padrão)</string>
   <!-- Smart Options -->
   <string name="smart_category_title">Opções inteligentes</string>
-  <string name="smart_mute_title">Silenciar inteligente</string>
+  <string name="smart_mute_title">Silenciar chamada inteligente</string>
   <string name="smart_mute_summary">Silenciar chamada recebida virando o dispositivo para baixo</string>
   <!-- Show or Hide Dialerpad -->
   <string name="showdialer_title">Mostrar automaticamente o teclado</string>
