@@ -17,6 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Proximity speaker -->
+  <string name="speaker_settings_label">Laheisyysanturi puhelussa</string>
   <!-- Smart Options -->
   <!-- Show or Hide Dialerpad -->
 </resources>
