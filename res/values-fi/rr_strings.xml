@@ -18,6 +18,13 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Proximity speaker -->
   <string name="speaker_settings_label">Laheisyysanturi puhelussa</string>
+  <string name="prox_auto_speaker_title">Kaiuttimen käyttö läheisyysanturin perusteella</string>
+  <string name="prox_auto_speaker_summary">Siirrä puhelu automaattisesti kaiuttimelle kun puhelin otetaan korvalta</string>
+  <string name="prox_auto_speaker_delay_title">Kaiutinpuhelun viive</string>
+  <string name="prox_auto_speaker_delay_dialog_title">Kaiutinpuhelun viive (ms)</string>
+  <string name="prox_auto_speaker_delay_summary">Kaiutin otetaan käyttöön <xliff:g id="number">%d</xliff:g> ms ajaksi</string>
+  <string name="prox_auto_speaker_incall_only_title">Vain puhelun aikana</string>
+  <string name="prox_auto_speaker_incall_only_summary_on">Lähtevässä puhelussa kuulija aktivoituu vasta, kun vastaanottava osapuoli vastaa</string>
   <!-- Smart Options -->
   <!-- Show or Hide Dialerpad -->
 </resources>

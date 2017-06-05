@@ -25,6 +25,10 @@
   <string name="prox_auto_speaker_delay_summary">הספיקר יהיה מופעל בעוד <xliff:g id="number">%d</xliff:g> מיל\"ש</string>
   <string name="prox_auto_speaker_incall_only_title">רק בזמן שיחה</string>
   <string name="prox_auto_speaker_incall_only_summary_on">בזמן שיחות יוצאות, המאזין יפעל רק לאחר שהמשיב יענה</string>
+  <string name="prox_auto_speaker_incall_only_summary_off">המאזין יפעל במהלך כל מצבי שיחה פעילה (בררת מחדל)</string>
   <!-- Smart Options -->
+  <string name="smart_category_title">אפשרויות מתקדמות</string>
+  <string name="smart_mute_title">השתקה חכמה</string>
+  <string name="smart_mute_summary">השתק שיחה נכנסת בהיפוך הטלפון</string>
   <!-- Show or Hide Dialerpad -->
 </resources>

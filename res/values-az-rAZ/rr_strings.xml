@@ -17,8 +17,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Proximity speaker -->
-  <string name="speaker_settings_label">Yaxınlıq səsucaldanı</string>
-  <string name="prox_auto_speaker_title">Avtomatik yaxınlıq səsucaldanı</string>
+  <string name="speaker_settings_label">Yaxınlıq dinamiki</string>
+  <string name="prox_auto_speaker_title">Avtomatik yaxınlıq dinamiki</string>
   <string name="prox_auto_speaker_summary">Telefonunuzu qulağınızdan çəkdiyinizdə səsucaldanı avtomatik olaraq aktivləşdirir</string>
   <string name="prox_auto_speaker_delay_title">Səsucaldan gecikməsi</string>
   <string name="prox_auto_speaker_delay_dialog_title">Səsucaldan gecikməsi (ms)</string>
@@ -31,4 +31,6 @@
   <string name="smart_mute_title">Ağıllı səssizlik</string>
   <string name="smart_mute_summary">Cihazı çevirərək gələn zəngi ləğv et</string>
   <!-- Show or Hide Dialerpad -->
+  <string name="showdialer_title">Klaviaturanı avtomatik olaraq göstər</string>
+  <string name="showdialer_summary">Tərcümə tətbiqi açıldığında klaviatura avtomatik olaraq göstərilir</string>
 </resources>
