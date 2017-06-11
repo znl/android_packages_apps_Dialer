@@ -31,4 +31,6 @@
   <string name="smart_mute_title">השתקה חכמה</string>
   <string name="smart_mute_summary">השתק שיחה נכנסת בהיפוך הטלפון</string>
   <!-- Show or Hide Dialerpad -->
+  <string name="showdialer_title">הצג את החייגן אוטומטית</string>
+  <string name="showdialer_summary">הצג את לוח החייגן אוטומטית בפתיחת יישום הטלפון</string>
 </resources>
