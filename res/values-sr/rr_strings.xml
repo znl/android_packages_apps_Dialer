@@ -27,5 +27,10 @@
   <string name="prox_auto_speaker_incall_only_summary_on">Током одлазних позива, слушалац ће постати активан само након што се друга страна јави</string>
   <string name="prox_auto_speaker_incall_only_summary_off">Слушалац ће бити активан током свих \"offhook\" позива (подразумевно)</string>
   <!-- Smart Options -->
+  <string name="smart_category_title">Паметне опције</string>
+  <string name="smart_mute_title">Паметно утишавање</string>
+  <string name="smart_mute_summary">Утишајте долазни позив окретањем уређаја</string>
   <!-- Show or Hide Dialerpad -->
+  <string name="showdialer_title">Аутоматски прикажи бројчаник за позиве</string>
+  <string name="showdialer_summary">Аутоматски прикажи бројчаник за позиве при покретању апликације Телефон</string>
 </resources>
