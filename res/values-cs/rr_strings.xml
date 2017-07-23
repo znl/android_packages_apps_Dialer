@@ -20,8 +20,8 @@
   <string name="speaker_settings_label">Přiblížení reproduktoru</string>
   <string name="prox_auto_speaker_title">Automatické přiblížení reproduktoru</string>
   <string name="prox_auto_speaker_summary">Automaticky povolit hlasitý reproduktor při odebrání z ucha</string>
-  <string name="prox_auto_speaker_delay_title">Zpoždění hlasitého reporduktoru</string>
-  <string name="prox_auto_speaker_delay_dialog_title">Zpoždění hlasitého reporduktoru v (ms)</string>
+  <string name="prox_auto_speaker_delay_title">Zpoždění hlasitého reproduktoru</string>
+  <string name="prox_auto_speaker_delay_dialog_title">Zpoždění hlasitého reproduktoru v (ms)</string>
   <string name="prox_auto_speaker_delay_summary">Hlasitý reproduktor bude aktivován za <xliff:g id="number">%d </xliff:g> ms</string>
   <string name="prox_auto_speaker_incall_only_title">Pouze při hovoru</string>
   <string name="prox_auto_speaker_incall_only_summary_on">Při odchozích hovorech se reproduktor aktivuje při přijmutí hovoru protistranou</string>
