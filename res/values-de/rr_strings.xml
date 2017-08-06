@@ -17,7 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Proximity speaker -->
-  <string name="speaker_settings_label">Abstandsabhängige Freispreichfunktion</string>
+  <string name="speaker_settings_label">Freisprecheinrichtung bei Annäherung</string>
   <string name="prox_auto_speaker_title">Automatische Freisprecheinrichtung bei Annäherung</string>
   <string name="prox_auto_speaker_summary">Freisprechen automatisch aktivieren, wenn Ihr Telefon vom Ohr entfernt wird</string>
   <string name="prox_auto_speaker_delay_title">Freisprecheinrichtungsverzögerung</string>

@@ -17,6 +17,20 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Proximity speaker -->
+  <string name="speaker_settings_label">ใกล้ลำโพง</string>
+  <string name="prox_auto_speaker_title">ลำโพงอยู่ใกล้โดยอัตโนมัติ</string>
+  <string name="prox_auto_speaker_summary">เปิดใช้งานลำโพงโดยอัตโนมัติเมื่อโทรศัพท์ของคุณจะถูกลบออกจากหู</string>
+  <string name="prox_auto_speaker_delay_title">หน่วงเวลาลำโพง</string>
+  <string name="prox_auto_speaker_delay_dialog_title">หน่วงเวลาลำโพงใน (ms)</string>
+  <string name="prox_auto_speaker_delay_summary">ลำโพงจะทำงานใน <xliff:g id="number">%d</xliff:g> ms</string>
+  <string name="prox_auto_speaker_incall_only_title">เฉพาะ ในขณะที่ในการเรียก</string>
+  <string name="prox_auto_speaker_incall_only_summary_on">เมื่อโทรออก ฟังจะกลายเป็นใช้งานอยู่หลังจากคำตอบของฝ่ายรับ</string>
+  <string name="prox_auto_speaker_incall_only_summary_off">ฟังจะทำงานระหว่างทุก offhook โทรรัฐ (เริ่มต้น)</string>
   <!-- Smart Options -->
+  <string name="smart_category_title">ตัวเลือกที่ชาญฉลาด</string>
+  <string name="smart_mute_title">ปิดเสียงสมาร์ท</string>
+  <string name="smart_mute_summary">ปิดเสียงเรียกเข้า โดยการพลิกอุปกรณ์</string>
   <!-- Show or Hide Dialerpad -->
+  <string name="showdialer_title">แสดงแป้นปุ่มกดโดยอัตโนมัติ</string>
+  <string name="showdialer_summary">แสดงแป้นปุ่มกดโดยอัตโนมัติเมื่อเปิดตรวจสอบเลขหมาย</string>
 </resources>
