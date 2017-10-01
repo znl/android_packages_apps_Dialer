@@ -21,7 +21,7 @@
   <string name="prox_auto_speaker_title">Otomatik yakınlık hoparlörü</string>
   <string name="prox_auto_speaker_summary">Telefonunuzu kulağınızdan çektiğinizde hoparlörü otomatik olarak etkinleştirir</string>
   <string name="prox_auto_speaker_delay_title">Hoparlör gecikmesi</string>
-  <string name="prox_auto_speaker_delay_dialog_title">Hoparlörü gecikmesi (ms)</string>
+  <string name="prox_auto_speaker_delay_dialog_title">Hoparlör gecikmesi (ms)</string>
   <string name="prox_auto_speaker_delay_summary">Hoparlör <xliff:g id="number">%d</xliff:g> ms içinde aktif edilecektir</string>
   <string name="prox_auto_speaker_incall_only_title">Yalnızca arama sırasında</string>
   <string name="prox_auto_speaker_incall_only_summary_on">Giden aramalarda dinleyici yalnızca alıcı taraf cevapladıktan sonra aktif hale gelecektir</string>
