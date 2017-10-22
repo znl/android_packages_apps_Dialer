@@ -35,20 +35,16 @@ public final class LookupSettings {
     public static final String FLP_DEFAULT = FLP_GOOGLE;
 
     /** People lookup providers */
-    public static final String PLP_WHITEPAGES = "WhitePages";
     public static final String PLP_AUSKUNFT = "Auskunft";
-    public static final String PLP_DEFAULT = PLP_WHITEPAGES;
+    public static final String PLP_DEFAULT = PLP_AUSKUNFT;
 
     /** Reverse lookup providers */
     public static final String RLP_OPENCNAM = "OpenCnam";
-    public static final String RLP_WHITEPAGES = "WhitePages";
-    public static final String RLP_WHITEPAGES_CA = "WhitePages_CA";
     public static final String RLP_YELLOWPAGES = "YellowPages";
     public static final String RLP_YELLOWPAGES_CA = "YellowPages_CA";
     public static final String RLP_ZABASEARCH = "ZabaSearch";
     public static final String RLP_CYNGN_CHINESE = "CyngnChinese";
     public static final String RLP_DASTELEFONBUCH = "DasTelefonbuch";
-    public static final String RLP_GEBELD = "Gebeld";
     public static final String RLP_AUSKUNFT = "Auskunft";
     public static final String RLP_DEFAULT = RLP_OPENCNAM;
 
@@ -81,6 +77,12 @@ public final class LookupSettings {
         String provider = getLookupProvider(context,
                 CMSettings.System.PEOPLE_LOOKUP_PROVIDER, PLP_DEFAULT);
 
+        if ("WhitePages".equals(provider)) {
+            CMSettings.System.putString(context.getContentResolver(),
+                    CMSettings.System.PEOPLE_LOOKUP_PROVIDER, PLP_DEFAULT);
+            provider = PLP_DEFAULT;
+        }
+
         return provider;
     }
 
@@ -88,7 +90,8 @@ public final class LookupSettings {
         String provider = getLookupProvider(context,
                 CMSettings.System.REVERSE_LOOKUP_PROVIDER, RLP_DEFAULT);
 
-        if ("Google".equals(provider)) {
+        if ("Google".equals(provider) || "Gebeld".equals(provider) ||
+                "WhitePages".equals(provider) || "WhitePages_CA".equals(provider)) {
             CMSettings.System.putString(context.getContentResolver(),
                     CMSettings.System.REVERSE_LOOKUP_PROVIDER, RLP_DEFAULT);
             provider = RLP_DEFAULT;
