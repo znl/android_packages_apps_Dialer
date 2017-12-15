@@ -20,6 +20,7 @@
   <string name="speaker_settings_label">निकटता स्पीकरफ़ोन</string>
   <string name="prox_auto_speaker_title">स्वचालित निकटता speakerphone</string>
   <string name="prox_auto_speaker_summary">Enable speakerphone automatically when your phone is removed from your ear</string>
+  <string name="prox_auto_speaker_delay_title">Walton primo zx2</string>
   <string name="prox_auto_speaker_delay_dialog_title">Speakerphone विलंब (ms) में</string>
   <string name="prox_auto_speaker_incall_only_title">केवल कॉल में जबकि</string>
   <string name="prox_auto_speaker_incall_only_summary_on">On outgoing calls, listener will only become active after the receiving party answers</string>
