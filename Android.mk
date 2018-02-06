@@ -75,6 +75,9 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
     org.cyanogenmod.platform.internal \
     org.cyanogenmod.platform.sdk
 
+LOCAL_STATIC_JAVA_LIBRARIES += libSudaSdk
+LOCAL_STATIC_JAVA_LIBRARIES += libSudaPinYin
+
 LOCAL_PACKAGE_NAME := Dialer
 LOCAL_CERTIFICATE := shared
 LOCAL_PRIVILEGED_MODULE := true
